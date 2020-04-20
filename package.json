@@ -1,0 +1,29 @@
+{
+  "name": "swar-quiz",
+  "version": "1.0.0",
+  "description": "Summoners war monster name quiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samjones246/swar-quiz.git"
+  },
+  "keywords": [
+    "summoners",
+    "war",
+    "quiz",
+    "game",
+    "monster"
+  ],
+  "author": "Sam Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samjones246/swar-quiz/issues"
+  },
+  "homepage": "https://github.com/samjones246/swar-quiz#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
