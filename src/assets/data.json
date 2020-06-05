@@ -1,0 +1,1339 @@
+{
+    "attributes":[
+        "Fire",
+        "Water",
+        "Wind",
+        "Light",
+        "Dark"
+    ],
+    "monsters":[
+        [
+            {
+                "familyName": "Imp",
+                "members": [
+                    "Cogma",
+                    "Fynn",
+                    "Ralph",
+                    "Taru",
+                    "Garok" 
+                ]
+            },
+            {
+                "familyName": "Pixie",
+                "members": [
+                    "Tatu",
+                    "Kacey",
+                    "Shannon",
+                    "Cheryl",
+                    "Camaryn" 
+                ]
+            },
+            {
+                "familyName": "Yeti",
+                "members": [
+                    "Tantra",
+                    "Kunda",
+                    "Rakaja",
+                    "Arkajan",
+                    null 
+                ]
+            },
+            {
+                "familyName": "Hellhound",
+                "members": [
+                    "Sieq",
+                    "Tarq",
+                    "Gamir",
+                    "Shamar",
+                    null 
+                ]
+            },
+            {
+                "familyName": "Warbear",
+                "members": [
+                    "Ursha",
+                    null,
+                    "Ramagos",
+                    null,
+                    "Gorgo" 
+                ]
+            },
+            {
+                "familyName": "Elemental",
+                "members": [
+                    "Bremis",
+                    "Daharenos",
+                    "Taharus",
+                    null,
+                    null 
+                ]
+            },
+            {
+                "familyName": "Garuda",
+                "members": [
+                    "Cahule",
+                    "Konamiya",
+                    "Linderman",
+                    null,
+                    "Rizak" 
+                ]
+            },
+            {
+                "familyName": "Harpu",
+                "members": [
+                    "Colleen",
+                    "Sisroo",
+                    "Seal",
+                    null,
+                    null 
+                ]
+            },
+            {
+                "familyName": "Howl",
+                "members": [
+                    "Lala",
+                    "Lulu",
+                    "Chichi",
+                    "Shushu",
+                    "Chacha" 
+                ]
+            },
+            {
+                "familyName": "Salamander",
+                "members": [
+                    null,
+                    "Kaimann",
+                    "Lukan",
+                    "Sharman",
+                    "Decamaron" 
+                ]
+            },
+            {
+                "familyName": "Viking",
+                "members": [
+                    null,
+                    "Huga",
+                    "Walter",
+                    "Jansson",
+                    null 
+                ]
+            },
+            {
+                "familyName": "Vagabond",
+                "members": [
+                    null,
+                    "Allen",
+                    "Roid",
+                    null,
+                    null 
+                ]
+            },
+            {
+                "familyName": "Fairy",
+                "members": [
+                    null,
+                    null,
+                    "Aeiline",
+                    null,
+                    "Sorin" 
+                ]
+            }
+        ],
+        [
+            {
+                "familyName": "Yeti",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    "Kumae"
+                ]
+            },
+            {
+                "familyName": "Hellhound",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    "Shumar"
+                ]
+            },
+            {
+                "familyName": "Warbear",
+                "members": [
+                    null,
+                    "Dagora",
+                    null,
+                    "Lusha",
+                    null
+                ]
+            },
+            {
+                "familyName": "Elemental",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    "Priz",
+                    "Camules"
+                ]
+            },
+            {
+                "familyName": "Garuda",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    "Teon",
+                    null
+                ]
+            },
+            {
+                "familyName": "Harpu",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    "Sia",
+                    "Seren"
+                ]
+            },
+            {
+                "familyName": "Salamander",
+                "members": [
+                    "Krakdon",
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "familyName": "Viking",
+                "members": [
+                    "Geoffrey",
+                    null,
+                    null,
+                    null,
+                    "Janssen"
+                ]
+            },
+            {
+                "familyName": "Vagabond",
+                "members": [
+                    "Kai'en",
+                    null,
+                    null,
+                    "Darion",
+                    "Jubelle"
+                ]
+            },
+            {
+                "familyName": "Fairy",
+                "members": [
+                    "Iselia",
+                    "Elucia",
+                    null,
+                    "Neal",
+                    null
+                ]
+            },
+            {
+                "familyName": "Harpy",
+                "members": [
+                    "Lucasha",
+                    "Ramira",
+                    "Prilea",
+                    "Kabilla",
+                    "Hellea"
+                ]
+            },
+            {
+                "familyName": "Inugami",
+                "members": [
+                    "Raoq",
+                    "Icaru",
+                    "Ramahan",
+                    "Belladeon",
+                    "Kro"
+                ]
+            },
+            {
+                "familyName": "Serpent",
+                "members": [
+                    "Fao",
+                    "Shailoq",
+                    "Ermeda",
+                    "Elpuria",
+                    "Mantura"
+                ]
+            },
+            {
+                "familyName": "Golem",
+                "members": [
+                    "Kugo",
+                    "Kuhn",
+                    "Ragion",
+                    "Groggo",
+                    "Maggi"
+                ]
+            },
+            {
+                "familyName": "Griffon",
+                "members": [
+                    "Spectra",
+                    "Kahn",
+                    "Bernard",
+                    "Shamann",
+                    "Varus"
+                ]
+            },
+            {
+                "familyName": "Inferno",
+                "members": [
+                    "Tagaros",
+                    "Purian",
+                    "Anduril",
+                    "Eludain",
+                    "Drogan"
+                ]
+            },
+            {
+                "familyName": "High Elemental",
+                "members": [
+                    "Kahli",
+                    "Ellena",
+                    "Moria",
+                    "Shren",
+                    "Jumaline"
+                ]
+            },
+            {
+                "familyName": "Bearman",
+                "members": [
+                    "Kungen",
+                    "Gruda",
+                    "Dagorr",
+                    "Ahman",
+                    "Haken"
+                ]
+            },
+            {
+                "familyName": "Werewolf",
+                "members": [
+                    "Garoche",
+                    "Vigor",
+                    "Shakan",
+                    "Eshir",
+                    "Jultan"
+                ]
+            },
+            {
+                "familyName": "Amazon",
+                "members": [
+                    "Ceres",
+                    "Ellin",
+                    "Hina",
+                    "Lyn",
+                    "Mara"
+                ]
+            },
+            {
+                "familyName": "Martial Cat",
+                "members": [
+                    "Mei",
+                    "Mina",
+                    "Naomi",
+                    "Xiao Ling",
+                    "Miho"
+                ]
+            },
+            {
+                "familyName": "Magical Archer",
+                "members": [
+                    "Cassandra",
+                    "Sharron",
+                    "Ardella",
+                    null,
+                    null
+                ]
+            },
+            {
+                "familyName": "Bounty Hunter",
+                "members": [
+                    "Randy",
+                    "Wayne",
+                    "Roger",
+                    "Walkers",
+                    "Jamie"
+                ]
+            },
+            {
+                "familyName": "Imp Champion",
+                "members": [
+                    "Fairo",
+                    "Yaku",
+                    "Pigma",
+                    "Shaffron",
+                    "Loque"
+                ]
+            },
+            {
+                "familyName": "Mystic Witch",
+                "members": [
+                    "Rebecca",
+                    "Megan",
+                    "Silia",
+                    "Linda",
+                    "Gina"
+                ]
+            },
+            {
+                "familyName": "Grim Reaper",
+                "members": [
+                    "Sath",
+                    "Hemos",
+                    "Hiva",
+                    "Prom",
+                    "Thrain"
+                ]
+            },
+            {
+                "familyName": "Living Armor",
+                "members": [
+                    "Iron",
+                    "Nickel",
+                    "Copper",
+                    "Silver",
+                    "Zinc"
+                ]
+            },
+            {
+                "familyName": "Drunken Master",
+                "members": [
+                    "Xiao Chun",
+                    "Mao",
+                    "Huan",
+                    "Tien Qin",
+                    "Wei Shin"
+                ]
+            },
+            {
+                "familyName": "Minotauros",
+                "members": [
+                    "Burentau",
+                    "Urtau",
+                    "Eintau",
+                    "Grotau",
+                    "Kamatau"
+                ]
+            },
+            {
+                "familyName": "Lizardman",
+                "members": [
+                    "Igmanodon",
+                    "Kernodon",
+                    "Velfinodon",
+                    "Glinodon",
+                    "Devinodon"
+                ]
+            },
+            {
+                "familyName": "Taoist",
+                "members": [
+                    "Gunpyeong",
+                    null,
+                    null,
+                    null,
+                    "Woonhak"
+                ]
+            },
+            {
+                "familyName": "Beast Hunter",
+                "members": [
+                    "Nangrim",
+                    "Gangchun",
+                    "Suri",
+                    "Baekdu",
+                    "Hanra"
+                ]
+            },
+            {
+                "familyName": "Penguin Knight",
+                "members": [
+                    "Naki",
+                    "Toma",
+                    "Mav",
+                    "Dona",
+                    "Kuna"
+                ]
+            },
+            {
+                "familyName": "Battle Mammoth",
+                "members": [
+                    "Granite",
+                    "Talc",
+                    "Olivine",
+                    "Marble",
+                    "Basalt"
+                ]
+            },
+            {
+                "familyName": "Cowgirl",
+                "members": [
+                    "Anne",
+                    "Sera",
+                    "Hannah",
+                    "Loren",
+                    "Cassie"
+                ]
+            },
+            {
+                "familyName": "Charger Shark",
+                "members": [
+                    "Ignicus",
+                    "Aqcus",
+                    "Zephicus",
+                    "Rumicus",
+                    "Calicus"
+                ]
+            },
+            {
+                "familyName": "Martial Artist",
+                "members": [
+                    "Sin",
+                    "Luan",
+                    "Lo",
+                    "Hiro",
+                    "Jackie"
+                ]
+            },
+            {
+                "familyName": "Mummy",
+                "members": [
+                    "Sonora",
+                    "Nubia",
+                    "Namib",
+                    "Sahara",
+                    "Karakum"
+                ]
+            },
+            {
+                "familyName": "Frankenstein",
+                "members": [
+                    "Bulldozer",
+                    "Tractor",
+                    "Crane",
+                    "Driller",
+                    "Crawler"
+                ]
+            },
+            {
+                "familyName": "Elven Ranger",
+                "members": [
+                    "Adrian",
+                    "Eluin",
+                    "Erwin",
+                    "Lucien",
+                    null
+                ]
+            },
+            {
+                "familyName": "Harg",
+                "members": [
+                    "Racuni",
+                    "Remy",
+                    null,
+                    null,
+                    "Kroa"
+                ]
+            },
+            {
+                "familyName": "Giant Warrior",
+                "members": [
+                    "Vidurr",
+                    "Bagir",
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "familyName": "Epikion Priest",
+                "members": [
+                    null,
+                    "Rina",
+                    "Michelle",
+                    null,
+                    "Rasheed"
+                ]
+            },
+            {
+                "familyName": "Fairy Queen",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    "Fran",
+                    null
+                ]
+            }
+        ],
+        [
+            {
+                "familyName": "Elven Ranger",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    "Isillen"
+                ]
+            },
+            {
+                "familyName": "Harg",
+                "members": [
+                    null,
+                    null,
+                    "Raviti",
+                    "Dova",
+                    null
+                ]
+            },
+            {
+                "familyName": "Giant Warrior",
+                "members": [
+                    null,
+                    null,
+                    "Skogul",
+                    "Einheri",
+                    "Trasar"
+                ]
+            },
+            {
+                "familyName": "Magical Archer",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    "Chris",
+                    "Bethony"
+                ]
+            },
+            {
+                "familyName": "Taoist",
+                "members": [
+                    null,
+                    "Gildong",
+                    "Woochi",
+                    "Hwadam",
+                    null
+                ]
+            },
+            {
+                "familyName": "Epikion Priest",
+                "members": [
+                    "Chloe",
+                    null,
+                    null,
+                    "Iona",
+                    null
+                ]
+            },
+            {
+                "familyName": "Nine-tailed Fox",
+                "members": [
+                    "Shihwa",
+                    "Soha",
+                    "Arang",
+                    "Chamie",
+                    "Kamiya"
+                ]
+            },
+            {
+                "familyName": "Undine",
+                "members": [
+                    "Atenai",
+                    "Mikene",
+                    "Delphoi",
+                    "Icasha",
+                    "Tilasha"
+                ]
+            },
+            {
+                "familyName": "Sylph",
+                "members": [
+                    "Baretta",
+                    "Tyron",
+                    "Shimitae",
+                    "Eredas",
+                    "Aschubel"
+                ]
+            },
+            {
+                "familyName": "Sylphid",
+                "members": [
+                    "Fria",
+                    "Lumirecia",
+                    "Acasis",
+                    "Mihael",
+                    "Icares"
+                ]
+            },
+            {
+                "familyName": "Succubus",
+                "members": [
+                    "Aria",
+                    "Izaria",
+                    "Selena",
+                    "Aria",
+                    "Isael"
+                ]
+            },
+            {
+                "familyName": "Joker",
+                "members": [
+                    "Jojo",
+                    "Sian",
+                    "Lushen",
+                    "Figaro",
+                    "Liebli"
+                ]
+            },
+            {
+                "familyName": "Ninja",
+                "members": [
+                    "Garo",
+                    "Susano",
+                    "Orochi",
+                    "Gin",
+                    null
+                ]
+            },
+            {
+                "familyName": "Pierret",
+                "members": [
+                    "Clara",
+                    "Julie",
+                    "Sophia",
+                    "Eva",
+                    "Luna"
+                ]
+            },
+            {
+                "familyName": "Phantom Thief",
+                "members": [
+                    "Jean",
+                    "Luer",
+                    "Julien",
+                    "Louis",
+                    "Guillaume"
+                ]
+            },
+            {
+                "familyName": "Vampire",
+                "members": [
+                    "Verdehile",
+                    "Liesel",
+                    "Argen",
+                    null,
+                    null
+                ]
+            },
+            {
+                "familyName": "Rakshasa",
+                "members": [
+                    "Hwa",
+                    "Su",
+                    "Yen",
+                    "Pang",
+                    "Ran"
+                ]
+            },
+            {
+                "familyName": "Death Knight",
+                "members": [
+                    "Arnold",
+                    "Fedora",
+                    "Briand",
+                    "Conrad",
+                    "Dias"
+                ]
+            },
+            {
+                "familyName": "Lich",
+                "members": [
+                    "Antares",
+                    "Rigel",
+                    "Fuco",
+                    "Halphas",
+                    "Grego"
+                ]
+            },
+            {
+                "familyName": "Samurai",
+                "members": [
+                    "Jun",
+                    "Kaz",
+                    "Kaito",
+                    "Tosi",
+                    "Sige"
+                ]
+            },
+            {
+                "familyName": "Kung Fu Girl",
+                "members": [
+                    "Hong Hua",
+                    "Xiao Lin",
+                    "Ling Ling",
+                    "Liu Mei",
+                    "Fei"
+                ]
+            },
+            {
+                "familyName": "Brownie Magician",
+                "members": [
+                    "Draco",
+                    "Orion",
+                    "Aquila",
+                    "Gemini",
+                    "Korona"
+                ]
+            },
+            {
+                "familyName": "Kobold Bomber",
+                "members": [
+                    "Zibrolta",
+                    "Malaka",
+                    "Taurus",
+                    "Dover",
+                    "Bering"
+                ]
+            },
+            {
+                "familyName": "Sky Dancer",
+                "members": [
+                    "Hwahee",
+                    "Mihyang",
+                    "Chasun",
+                    null,
+                    null
+                ]
+            },
+            {
+                "familyName": "Barbaric King",
+                "members": [
+                    "Surtr",
+                    "Aegir",
+                    "Hraesvelg",
+                    "Mimirr",
+                    "Hrungnir"
+                ]
+            },
+            {
+                "familyName": "Pirate Captain",
+                "members": [
+                    "Carrack",
+                    "Galleon",
+                    "Barque",
+                    "Brig",
+                    "Frigate"
+                ]
+            },
+            {
+                "familyName": "Mermaid",
+                "members": [
+                    "Platy",
+                    "Tetra",
+                    "Cichlid",
+                    "Molly",
+                    "Betta"
+                ]
+            },
+            {
+                "familyName": "Magic Knight",
+                "members": [
+                    "Astar",
+                    "Lapis",
+                    "Lupinus",
+                    "Iris",
+                    "Lanett"
+                ]
+            },
+            {
+                "familyName": "Assassin",
+                "members": [
+                    "Lexy",
+                    "Stella",
+                    "Tanya",
+                    "Natalie",
+                    "Isabelle"
+                ]
+            },
+            {
+                "familyName": "Neostone Fighter",
+                "members": [
+                    "Trevor",
+                    "Ryan",
+                    "Logan",
+                    "Lucas",
+                    "Karl"
+                ]
+            },
+            {
+                "familyName": "Neostone Agent",
+                "members": [
+                    "Lisa",
+                    "Emma",
+                    "Olivia",
+                    "Illianna",
+                    "Sylvia"
+                ]
+            },
+            {
+                "familyName": "Anubis",
+                "members": [
+                    "Khmun",
+                    "Avaris",
+                    "Iunu",
+                    "Armana",
+                    null
+                ]
+            },
+            {
+                "familyName": "Horus",
+                "members": [
+                    "Duamutef",
+                    "Qebehsenuef",
+                    "Imesety",
+                    "Wedjat",
+                    "Amduat"
+                ]
+            },
+            {
+                "familyName": "Jack-o'-lantern",
+                "members": [
+                    "Smokey",
+                    "Chilling",
+                    "Windy",
+                    "Misty",
+                    "Dusky"
+                ]
+            },
+            {
+                "familyName": "Dice Magician",
+                "members": [
+                    "Ludo",
+                    "Reno",
+                    "Morris",
+                    "Tablo",
+                    "Monte"
+                ]
+            },
+            {
+                "familyName": "Harp Magician",
+                "members": [
+                    "Harmonia",
+                    "Sonnet",
+                    "Triana",
+                    null,
+                    null
+                ]
+            },
+            {
+                "familyName": "Chakram Dancer",
+                "members": [
+                    "Shaina",
+                    "Talia",
+                    "Melissa",
+                    "Deva",
+                    "Belita"
+                ]
+            },
+            {
+                "familyName": "Boomerang Warrior",
+                "members": [
+                    "Maruna",
+                    "Sabrina",
+                    "Zenobia",
+                    "Bailey",
+                    "Martina"
+                ]
+            },
+            {
+                "familyName": "Dryad",
+                "members": [
+                    "Nisha",
+                    "Herne",
+                    "Mellia",
+                    "Felleria",
+                    "Hyanes"
+                ]
+            },
+            {
+                "familyName": "Sniper Mk.1",
+                "members": [
+                    "Carcano",
+                    "Covenant",
+                    "Carbine",
+                    "Magnum",
+                    "Dragunov"
+                ]
+            },
+            {
+                "familyName": "Cannon Girl",
+                "members": [
+                    "Scarlett",
+                    "Abigail",
+                    null,
+                    "Emily",
+                    null
+                ]
+            },
+            {
+                "familyName": "Gargoyle",
+                "members": [
+                    "Kunite",
+                    "Tanzaite",
+                    "Malite",
+                    "Phenaka",
+                    "Onyx"
+                ]
+            },
+            {
+                "familyName": "String Master",
+                "members": [
+                    "Hongyeon",
+                    "Songseol",
+                    "Yeonhwa",
+                    "Dongbaek",
+                    "Mirinae"
+                ]
+            }
+        ],
+        [
+            {
+                "familyName": "Ninja",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    "Han"
+                ]
+            },
+            {
+                "familyName": "Vampire",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    "Julianne",
+                    "Cadiz"
+                ]
+            },
+            {
+                "familyName": "Sky Dancer",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    "Yeonhong",
+                    "Wolyung"
+                ]
+            },
+            {
+                "familyName": "Anubis",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    "Thebae"
+                ]
+            },
+            {
+                "familyName": "Harp Magician",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    "Celia",
+                    "Vivachel"
+                ]
+            },
+            {
+                "familyName": "Cannon Girl",
+                "members": [
+                    null,
+                    null,
+                    "Christina",
+                    null,
+                    "Bella"
+                ]
+            },
+            {
+                "familyName": "Valkyrja",
+                "members": [
+                    "Vanessa",
+                    "Camilla",
+                    "Katarina",
+                    "Akroma",
+                    "Trinity"
+                ]
+            },
+            {
+                "familyName": "Dragon",
+                "members": [
+                    "Zaiross",
+                    "Verad",
+                    "Jamire",
+                    "Zerath",
+                    "Grogen"
+                ]
+            },
+            {
+                "familyName": "Phoenix",
+                "members": [
+                    "Perna",
+                    "Sigmarus",
+                    "Teshar",
+                    "Eludia",
+                    "Jaara"
+                ]
+            },
+            {
+                "familyName": "Chimera",
+                "members": [
+                    "Rakan",
+                    "Taor",
+                    "Lagmaron",
+                    "Shan",
+                    "Zeratu"
+                ]
+            },
+            {
+                "familyName": "Oracle",
+                "members": [
+                    "Juno",
+                    "Praha",
+                    "Seara",
+                    "Laima",
+                    "Giana"
+                ]
+            },
+            {
+                "familyName": "Occult Girl",
+                "members": [
+                    "Rica",
+                    "Anavel",
+                    "Charlotte",
+                    "Lora",
+                    "Nicki"
+                ]
+            },
+            {
+                "familyName": "Dragon Knight",
+                "members": [
+                    "Laika",
+                    "Chow",
+                    "Leo",
+                    "Jager",
+                    "Ragdoll"
+                ]
+            },
+            {
+                "familyName": "Monkey King",
+                "members": [
+                    "Mei Hou Wang",
+                    "Shi Hou",
+                    "Xing Zhe",
+                    "Qitian Dasheng",
+                    "Son Zhang Lao"
+                ]
+            },
+            {
+                "familyName": "Archangel",
+                "members": [
+                    "Velajuel",
+                    "Ariel",
+                    "Eladriel",
+                    "Artamiel",
+                    "Fermion"
+                ]
+            },
+            {
+                "familyName": "Beast Monk",
+                "members": [
+                    "Kumar",
+                    "Chandra",
+                    "Ritesh",
+                    "Shazam",
+                    "Rahul"
+                ]
+            },
+            {
+                "familyName": "Hell Lady",
+                "members": [
+                    "Raki",
+                    "Beth",
+                    "Ethna",
+                    "Asima",
+                    "Craka"
+                ]
+            },
+            {
+                "familyName": "Pioneer",
+                "members": [
+                    "Chiwu",
+                    "Woosa",
+                    "Pungbaek",
+                    "Nigong",
+                    "Woonsa"
+                ]
+            },
+            {
+                "familyName": "Polar Queen",
+                "members": [
+                    "Brandia",
+                    "Alicia",
+                    "Tiana",
+                    "Elenoa",
+                    "Lydia"
+                ]
+            },
+            {
+                "familyName": "Ifrit",
+                "members": [
+                    "Tesarion",
+                    "Theomars",
+                    "Akhamamir",
+                    "Elsharion",
+                    "Veromos"
+                ]
+            },
+            {
+                "familyName": "Sea Emperor",
+                "members": [
+                    "Okeanos",
+                    "Poseidon",
+                    "Triton",
+                    "Pontos",
+                    "Manannan"
+                ]
+            },
+            {
+                "familyName": "Desert Queen",
+                "members": [
+                    "Sekhmet",
+                    "Bastet",
+                    "Hathor",
+                    "Isis",
+                    "Nephthys"
+                ]
+            },
+            {
+                "familyName": "Fairy King",
+                "members": [
+                    "Daphnis",
+                    "Psamathe",
+                    "Ganymede",
+                    "Oberon",
+                    "Nyx"
+                ]
+            },
+            {
+                "familyName": "Panda Warrior",
+                "members": [
+                    "Xiong Fei",
+                    "Mo Long",
+                    "Feng Yan",
+                    "Tian Lang",
+                    "Mi Ying"
+                ]
+            },
+            {
+                "familyName": "Unicorn",
+                "members": [
+                    "Helena",
+                    "Amelia",
+                    "Diana",
+                    "Eleanor",
+                    "Alexandra"
+                ]
+            },
+            {
+                "familyName": "Paladin",
+                "members": [
+                    "Ophilia",
+                    "Josephine",
+                    "Louise",
+                    "Jeanne",
+                    "Leona"
+                ]
+            },
+            {
+                "familyName": "Druid",
+                "members": [
+                    "Bellenus",
+                    "Abellio",
+                    "Taranys",
+                    "Valantis",
+                    "Pater"
+                ]
+            },
+            {
+                "familyName": "Lightning Emperor",
+                "members": [
+                    "Balegyr",
+                    "Bolverk",
+                    "Odin",
+                    "Geldnir",
+                    "Herteit"
+                ]
+            },
+            {
+                "familyName": "Demon",
+                "members": [
+                    "Bael",
+                    "Belial",
+                    "Mephisto",
+                    "Lucifer",
+                    "Beelzebub"
+                ]
+            },
+            {
+                "familyName": "Beast Rider",
+                "members": [
+                    "Masha",
+                    "Barbara",
+                    "Savannah",
+                    "Narsha",
+                    "Xiana"
+                ]
+            },
+            {
+                "familyName": "Vampire Lord",
+                "members": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    "Eirgar"
+                ]
+            },
+            {
+                "familyName": "Art Master",
+                "members": [
+                    "Jeogun",
+                    "Haegang",
+                    "Cheongpung",
+                    "Hanwul",
+                    "Mookwol"
+                ]
+            }
+        ]
+    ]
+}
