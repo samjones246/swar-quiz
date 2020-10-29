@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "deploy": "rsync -av --exclude 'node_modules/' . pi@192.168.1.103:/home/pi/server"
+  },
+  "author": "Sam Jones",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master"
+  }
+}
