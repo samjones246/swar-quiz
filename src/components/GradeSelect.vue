@@ -59,7 +59,10 @@ export default {
     },
     methods: {
         begin() {
-            this.$emit('begin', {grades: this.grades, attributes: this.attributes});
+            this.$store.commit("selectAttributes", this.attributes);
+            this.$store.commit("selectGrades", this.grades);
+            this.$store.commit("init")
+            this.$router.push("/quiz")
         }
     }
 }

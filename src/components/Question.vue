@@ -22,7 +22,7 @@
         <center> Monster: <b>{{ name }}</b> </center>
       </p>
       <div class="level">
-        <attribute-chooser class="level-item" :enabledAttributes="attributes" v-model="guess.attribute"></attribute-chooser>
+        <attribute-chooser class="level-item" :enabledAttributes="$store.state.selectedAttributes" v-model="guess.attribute"></attribute-chooser>
         <family-chooser class="level-item" :monsters="monsters" v-model="guess.family"></family-chooser>
       </div>
     </div>
@@ -45,7 +45,7 @@
 import data from "../assets/data.json"
 import FamilyChooser from "./FamilyChooser"
 import AttributeChooser from "./AttributeChooser"
-const monsters = data.monsters;
+//const monsters = data.monsters;
 const attributes = data.attributes;
 export default {
   name: 'Question',
@@ -60,20 +60,16 @@ export default {
       attribute: "",
       guess: {
         family: "",
-        attribute: attributes[0]
+        attribute: ""
       },
       grade: 2,
       questionNumber: 0,
       score: 0,
       monsters: [],
       questions: [],
-      showAnswer: false
+      showAnswer: false,
+      mode: 0
     }
-  },
-  props: {
-    grades: Object,
-    attributes: Object,
-    mode: Number
   },
   computed: {
     totalQuestions: function(){
@@ -89,21 +85,41 @@ export default {
   },
   methods: {
     getMonsters(){
+      var monsters = [...data.monsters]
       this.monsters = [];
       this.questions = [];
-      for(var grade in this.grades){
-        if(this.grades[grade]){
+      for(var grade in this.$store.state.selectedGrades){
+        if(this.$store.state.selectedGrades[grade]){
           this.monsters = this.monsters.concat(monsters[parseInt(grade)-2])
         }
       }
       var families = this.monsters;
+      if(this.$store.state.families === null){
+        this.$store.commit("initFamilies", families)
+      }else{
+        for(let i=0;i<this.$store.state.families.length;i++){
+          if(!families[i]){
+            console.log(`Family at index ${i} does not exist: ${this.$store.state.families[i].familyName}`)
+          }else if(families[i].familyName != this.$store.state.families[i].familyName){
+            console.log(`Mismatched family names at index ${i}: Local - ${families[i].familyName}, Init - ${this.$store.state.families[i].familyName}`)
+          }else{
+            for(let j=0;j<families[i].members.length;j++){
+              if(families[i].members[j] != this.$store.state.families[i].members[j]){
+                console.log(`Mismatched members for ${families[i].familyName}, index ${j}: Local - ${families[i].members[j]}, Init - ${this.$store.state.families[i].members[j]}`)
+              }
+            }
+          }
+        }
+      }
       for(family of families){
         for(attribute of [0,1,2,3,4]){
-          if(!this.attributes[attribute]){
+          if(!this.$store.state.selectedAttributes[attribute]){
+            console.log("Setting "+attributes[attribute]+" "+family.familyName+" to null")
             family.members[attribute] = null;
           }
           if(family.members.filter(m => m != null).length === 0){
-            families = families.filter(f => f !== family)
+            console.log("Removing "+family.familyName)
+            families = families.filter(f => f.familyName !== family.familyName)
           }
         } 
       }
@@ -133,6 +149,14 @@ export default {
           families = families.filter(f => f.familyName != family.familyName);
         }
       }
+      var firstAvailable = "";
+      for(let i=0;i<attributes.length;i++){
+        if(this.$store.state.selectedAttributes[i]){
+          firstAvailable = attributes[i];
+          break;
+        }
+      }
+      this.guess.attribute = firstAvailable;
     },
     newMonster(){
       this.showAnswer = false;
@@ -146,12 +170,14 @@ export default {
       this.correct = this.guess.family === this.family && this.guess.attribute === this.attribute;
       if(this.correct){
         this.score++;
-      }else if(this.guess.family === this.family){
-        this.score+=0.5
+      //}else if(this.guess.family === this.family){
+      //  this.score+=0.5
       }
       this.showAnswer = true;
     },
     done(){
+      this.$store.commit("setScore", this.score)
+      this.$router.push("/results")
       this.$emit("done", this.score);
     }
   },
@@ -162,8 +188,8 @@ export default {
 }
 function shuffle(array){
   for(let i = array.length - 1; i > 0; i--){
-    const j = Math.floor(Math.random() * i)
-    const temp = array[i]
+    var j = Math.floor(Math.random() * i)
+    var temp = array[i]
     array[i] = array[j]
     array[j] = temp
   }
